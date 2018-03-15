@@ -1,0 +1,82 @@
+.list2 {
+    background-color: rgba(119, 136, 153, 0.904);
+    background: -webkit-linear-gradient( rgba(119, 136, 153, 0.904), rgb(59, 59, 59));
+    background: -o-linear-gradient( rgba(119, 136, 153, 0.904), rgb(59, 59, 59));
+    background: -moz-linear-gradient( rgba(119, 136, 153, 0.904), rgb(59, 59, 59));
+    background: linear-gradient( rgba(119, 136, 153, 0.904), rgb(59, 59, 59));
+    width: 500px;
+    height: 835px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgb(44, 44, 44);
+    border-top: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(15, 28, 71);
+    border-right: 2px solid rgb(15, 28, 71);
+    margin-bottom: 50px;
+    margin-left: 10%;
+    overflow: auto;
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
+
+.clparent {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.completedTitle {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: -.05em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-shadow: 3px 1px 1px rgb(0, 0, 0);
+    font-family: 'Poiret One', cursive;
+}
+
+.completedList {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    width: 350px;
+    overflow: auto;
+    background-color: transparent;
+    border-radius: 3px;
+    border-bottom: 1px solid rgb(5, 255, 172);;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    font-weight: bold;
+    color:white;
+    font-weight: 400;
+    text-shadow: 3px 1px 1px rgb(0, 0, 0);
+    font-family: 'Poiret One', cursive;
+}
+
+.deleteComplete {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(88, 4, 4);
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(5, 255, 172);
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 1px 1px 10px 1px rgb(241, 241, 241);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'Poiret One', cursive;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

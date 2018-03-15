@@ -1,0 +1,93 @@
+.bgTodos {
+    background-color: rgba(119, 136, 153, 0.904);
+    background: -webkit-linear-gradient(rgb(59, 59, 59), rgba(119, 136, 153, 0.904));
+    background: -o-linear-gradient(rgb(59, 59, 59), rgba(119, 136, 153, 0.904));
+    background: -moz-linear-gradient(rgb(59, 59, 59), rgba(119, 136, 153, 0.904));
+    background: linear-gradient(rgb(59, 59, 59), rgba(119, 136, 153, 0.904));
+    width: 500px;
+    height: 200px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgb(44, 44, 44);
+    border-top: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(15, 28, 71);
+    border-right: 2px solid rgb(15, 28, 71);
+    margin-top: 150px;
+    z-index: 100;
+    font-family: 'Poiret One', cursive;
+    margin-left: 250px;
+}
+
+.inputParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input::placeholder {
+    color: rgba(224, 255, 255, 0.596);
+}
+
+.todoTitle {
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-shadow: 3px 3px 1px rgb(46, 45, 45);
+    letter-spacing: -.05em;
+}
+
+.todoTitle span {
+    color: rgb(5, 255, 172);
+    font-size: 40px;
+    letter-spacing: .05em;
+    line-height: 1em;
+    text-shadow: 2px 2px 1px 10px rgb(46, 45, 45);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.inputBox {
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(5, 255, 172);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px; 
+    margin-left: 20px;
+    background-color: transparent;
+    color:white;
+    font-weight: 400;
+    text-shadow: 3px 1px 1px rgb(0, 0, 0);
+    font-family: 'Poiret One', cursive;
+}
+
+input:focus {
+    outline: none;
+}
+
+.addbtn {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(22, 43, 109);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(5, 255, 172);
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 1px 1px 10px 1px rgb(241, 241, 241);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'Poiret One', cursive;
+    cursor: pointer;
+}
+

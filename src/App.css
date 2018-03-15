@@ -1,0 +1,69 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  margin: 0 none;
+  padding: 0;
+  background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+  margin: 0 none;
+  padding: 0;
+  background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1600px) {
+  .bgTodos {
+      margin-left: 100px;
+  }
+  .list {
+      left: 100px;
+  }
+  .list2 {
+      right: 100px;
+  }
+} 
+
+@media (max-width: 1300px) {
+  .bgTodos {
+      margin-left: 50px;
+  }
+  .list {
+      left: 50px;
+  }
+  .list2 {
+      right: 50px;
+  }
+} 
+
+@media (max-width: 1200px) {
+  .bgTodos {
+      margin-left: 10px;
+      width: 350px;
+  }
+  .list {
+      left: 10px;
+      width: 350px;
+  }
+  .list2 {
+      right: 10px;
+      width: 350px;
+  }
+} 
